@@ -33,8 +33,11 @@ $$dB^{[1]} = \frac{1}{m} \Sigma {dZ^{[1]}}$$
 **Parameter updates**
 
 $$W^{[2]} := W^{[2]} - \alpha dW^{[2]}$$
+
 $$b^{[2]} := b^{[2]} - \alpha db^{[2]}$$
+
 $$W^{[1]} := W^{[1]} - \alpha dW^{[1]}$$
+
 $$b^{[1]} := b^{[1]} - \alpha db^{[1]}$$
 
 **Vars and shapes**
